@@ -18,14 +18,14 @@
             android:id="@+id/bt_start"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Start"
+            android:text="Comenzar"
             android:layout_weight="1"/>
 
         <Button
             android:id="@+id/bt_stop"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Stop"
+            android:text="Detener"
             android:layout_weight="1"/>
 
     </LinearLayout>
