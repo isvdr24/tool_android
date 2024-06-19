@@ -15,10 +15,55 @@
         android:theme="@style/Theme.ToolAndroid"
         tools:targetApi="31">
         <activity
+            android:name=".ProgressbarHorizontalKotlinActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProgressbarHorizontalXMLActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProgressbarCircularKotlinActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProgressbarCircularXMLActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ViewXMLActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ViewKotlinActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProgressbarKotlinCircuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProgressbarKotlinHorizoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProgressbarXMLCircuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProgressbarXMLHorizoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProgressbarXMLHorizActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProgressbarMenuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ViewMenuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProgressbarCircularActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProgressBarHorizontalActivity"
+            android:exported="false" />
+        <activity
             android:name=".ViewActivity"
             android:exported="false" />
         <activity
-            android:name=".ProgressbarActivity"
+            android:name=".ProgressbarHorizontalActivity"
             android:exported="false" />
         <activity
             android:name=".MainPBandWVActivity"

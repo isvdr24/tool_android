@@ -34,7 +34,7 @@ class ViewActivity : AppCompatActivity() {
         val settings: WebSettings = visor.settings
         settings.javaScriptEnabled = true
 
-        visor.loadUrl("https://www.youtube.com/")
+        visor.loadUrl("https://www.google.com.ar/")
 
     }
 }

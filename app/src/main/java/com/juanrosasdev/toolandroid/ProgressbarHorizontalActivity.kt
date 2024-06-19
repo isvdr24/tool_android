@@ -7,14 +7,14 @@ import android.widget.ProgressBar
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 
-class ProgressbarActivity : AppCompatActivity() {
+class ProgressbarHorizontalActivity : AppCompatActivity() {
     private lateinit var progressBar: ProgressBar
     private lateinit var resetButton: Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        setContentView(R.layout.activity_progressbar)
+        setContentView(R.layout.activity_progressbar_horizontal)
 
         // Obtener referencia del ProgressBar y del botón
         progressBar = findViewById(R.id.progressBar)
