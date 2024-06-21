@@ -6,13 +6,13 @@
     android:layout_height="match_parent"
     tools:context=".BotonesActivity">
 
-
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/btnToast"
         android:layout_width="298dp"
         android:layout_height="57dp"
         android:backgroundTint="#35B893"
-        android:text="Button"
+        android:text="Siguiente"
+        android:layout_centerInParent="true"
         app:cornerRadius="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -67,5 +67,20 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.609"
         tools:ignore="MissingConstraints" />
+
+
+
+    <Button
+        android:id="@+id/sig_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="16dp"
+        android:backgroundTint="#00A2FF"
+        android:text="Siguiente"
+        android:textColor="#FFFFFF"
+        tools:layout_editor_absoluteX="282dp"
+        tools:layout_editor_absoluteY="631dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
