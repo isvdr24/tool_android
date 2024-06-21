@@ -6,9 +6,8 @@
     android:layout_height="match_parent"
     tools:context=".BotonesActivity">
 
-
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/btnToast"
         android:layout_width="298dp"
         android:layout_height="57dp"
         android:backgroundTint="#35B893"
