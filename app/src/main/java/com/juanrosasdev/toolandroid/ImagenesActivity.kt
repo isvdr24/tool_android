@@ -1,12 +1,20 @@
 package com.juanrosasdev.toolandroid
-import android.os.Bundle
-import androidx.appcompat.app.AppCompatActivity
 
-class NextActivity : AppCompatActivity() {
+import android.os.Bundle
+import androidx.activity.enableEdgeToEdge
+import androidx.appcompat.app.AppCompatActivity
+import androidx.core.view.ViewCompat
+import androidx.core.view.WindowInsetsCompat
+
+class ImagenesActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_botones)
-
-        // Configura la interfaz de usuario y lógica de la nueva actividad aquí
+        enableEdgeToEdge()
+        setContentView(R.layout.activity_imagenes)
+        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
+            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
+            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
+            insets
+        }
     }
 }
