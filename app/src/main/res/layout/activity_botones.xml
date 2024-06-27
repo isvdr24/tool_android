@@ -4,52 +4,58 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:backgroundTint="@color/cardview_light_background"
+    android:foregroundTint="@color/white"
     tools:context=".BotonesActivity">
 
     <Button
         android:id="@+id/btnToast"
         android:layout_width="298dp"
         android:layout_height="57dp"
-        android:backgroundTint="#35B893"
-        android:text="Siguiente"
         android:layout_centerInParent="true"
+        android:backgroundTint="@color/black"
+        android:text="Button Uno"
         app:cornerRadius="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.619"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.194"
+        app:layout_constraintVertical_bias="0.255"
         tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="290dp"
         android:layout_height="58dp"
-        android:backgroundTint="#239C91"
-        android:text="Button "
+        android:backgroundTint="@color/black"
+        android:text="Button Tres"
         app:cornerRadius="0dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.578"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.472"
+        app:layout_constraintVertical_bias="0.549"
         tools:ignore="MissingConstraints" />
+
 
     <Button
         android:id="@+id/button3"
         style="?attr/materialButtonOutlinedStyle"
         android:layout_width="289dp"
         android:layout_height="52dp"
-        android:text="Button"
+        android:backgroundTint="#464946"
+        android:foregroundTint="@color/design_default_color_background"
+        android:text="Button Dos"
+        android:textColorLink="@color/white"
         app:cornerRadius="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.573"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.325"
+        app:layout_constraintVertical_bias="0.422"
         tools:ignore="MissingConstraints" />
 
     <Button
@@ -57,7 +63,7 @@
         android:layout_width="294dp"
         android:layout_height="55dp"
         android:background="@drawable/custom_button"
-        android:text="Button"
+        android:text="Button Cuatro"
         app:backgroundTint="@null"
         app:cornerRadius="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -65,10 +71,8 @@
         app:layout_constraintHorizontal_bias="0.598"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.609"
+        app:layout_constraintVertical_bias="0.699"
         tools:ignore="MissingConstraints" />
-
-
 
     <Button
         android:id="@+id/sig_button"
@@ -77,10 +81,25 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
         android:layout_margin="16dp"
-        android:backgroundTint="#00A2FF"
+        android:backgroundTint="#484B4C"
         android:text="Siguiente"
         android:textColor="#FFFFFF"
-        tools:layout_editor_absoluteX="282dp"
-        tools:layout_editor_absoluteY="631dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="409dp"
+        android:layout_height="76dp"
+        android:autoText="false"
+        android:contextClickable="false"
+        android:text="  BIENVENIDOS"
+        android:textDirection="firstStrongRtl"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toTopOf="@+id/btnToast"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
