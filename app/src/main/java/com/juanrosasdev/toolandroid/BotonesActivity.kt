@@ -20,10 +20,10 @@ class BotonesActivity : AppCompatActivity() {
 
         // Configurando los botones para los mensajes toast
         btnToast.setOnClickListener {
-            Toast.makeText(this, "Bienvenidos", Toast.LENGTH_LONG).show()
+            Toast.makeText(this, "Hola Mundo", Toast.LENGTH_LONG).show()
         }
 
-        button2.setOnClickListener {
+        button3.setOnClickListener {
             Toast.makeText(this, "Gracias", Toast.LENGTH_SHORT).show()
         }
 
