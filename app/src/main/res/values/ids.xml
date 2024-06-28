@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="buttonBack1" type="id"/>
+    <item name="grupo_dias" type="id"/>
+    <item name="opcion_todos" type="id"/>
+    <item name="opcion_cinco" type="id"/>
+    <item name="opcion_tres" type="id"/>
+    <item name="opcion_uno" type="id"/>
+    <item name="opcion_ninguno" type="id"/>
+    <item name="switch_italic_format" type="id"/>
+    <item name="switch_color" type="id"/>
+    <item name="buttonKotlin" type="id"/>
+    <item name="algunElementoExistente" type="id"/>
+    <item name="buttonXml" type="id"/>
+</resources>

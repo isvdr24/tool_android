@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".Ejemplo1">
+
+    <Button
+        android:id="@+id/buttonBack1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="155dp"
+        android:layout_marginBottom="50dp"
+        android:text="Volver" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="¿Cuántos días a la semana haces ejercicio?"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#000000" />
+
+    <RadioGroup
+        android:id="@+id/grupo_dias"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/opcion_todos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Todos"
+            android:textColor="#000000" />
+
+        <RadioButton
+            android:id="@+id/opcion_cinco"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cinco"
+            android:textColor="#000000" />
+
+        <RadioButton
+            android:id="@+id/opcion_tres"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tres"
+            android:textColor="#000000" />
+
+        <RadioButton
+            android:id="@+id/opcion_uno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Uno"
+            android:textColor="#000000" />
+
+        <RadioButton
+            android:id="@+id/opcion_ninguno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ninguno"
+            android:textColor="#000000" />
+    </RadioGroup>
+
+
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:id="@+id/switch_italic_format"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp"
+        android:background="@android:color/white"
+        android:elevation="4dp"
+        android:padding="8dp"
+        android:text="Texto Italico"
+        android:textColor="#000000" />
+
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:id="@+id/switch_color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp"
+        android:background="@android:color/white"
+        android:elevation="4dp"
+        android:padding="8dp"
+        android:text="Texto de Color"
+        android:textColor="#000000" />
+
+
+    <Button
+        android:id="@+id/buttonKotlin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Código Kotlin"
+        android:layout_below="@+id/algunElementoExistente"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/buttonXml"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Código XML"
+        android:layout_below="@+id/buttonKotlin"
+        android:layout_marginTop="16dp"/>
+</LinearLayout>

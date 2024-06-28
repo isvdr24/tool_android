@@ -30,6 +30,15 @@
         <activity
             android:name=".MainActivity"
             android:exported="false" />
+
+        <activity android:name=".ListElements" android:exported="true" />
+        <activity android:name=".Ejemplo1" android:exported="true" />
+        <activity android:name=".Ejemplo2" android:exported="true" />
+        <activity android:name=".ImageEj1Ko" android:exported="true" />
+        <activity android:name=".ImageEj1Xm" android:exported="true" />
+        <activity android:name=".ImageEj2Ko" android:exported="true" />
+        <activity android:name=".ImageEj2Xm" android:exported="true" />
+
     </application>
 
 </manifest>
